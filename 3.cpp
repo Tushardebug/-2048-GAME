@@ -18,8 +18,6 @@ using namespace std;
  
 void up(long long int arrarrary[n])
 {
-  for(long long int k=0;k<n;k++){
-    while(true)
     for (long long int i = 0; i < 3; ++i)
     {
         for (long long int j = 0; j < 2; ++j)
@@ -45,7 +43,6 @@ void up(long long int arrarrary[n])
                         break;
                     }
                 }
-            }
         }
             else
             {
